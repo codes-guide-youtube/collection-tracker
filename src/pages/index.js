@@ -9,7 +9,7 @@ const Home = () => {
 
   return (
     <div>
-      <h1>Agent Data Dashboard</h1>
+      <h1 className='text-2xl'>OP Pharma Agent Data</h1>
       <AgentDropdown selectedAgent={selectedAgent} onAgentChange={setSelectedAgent} />
       <DayDropdown selectedDay={selectedDay} onDayChange={setSelectedDay} />
       {(selectedAgent && selectedDay) && (
