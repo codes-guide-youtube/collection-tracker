@@ -15,7 +15,7 @@ const Home = () => {
       {(selectedAgent && selectedDay) && (
         <DisplayData selectedAgent={selectedAgent} selectedDay={selectedDay} />
       )}
-      <div><Link href="https://github.com/codes-guide-youtube/collection-tracker/blob/main/README.md" target='_blank'>How does this work?</Link></div>
+      <div className="decoration-slate-200 underline focus:text-gray-400 hover:text-gray-300"><Link href="https://github.com/codes-guide-youtube/collection-tracker/blob/main/README.md" target='_blank'>How does this work?</Link></div>
     </div>
   );
 };
