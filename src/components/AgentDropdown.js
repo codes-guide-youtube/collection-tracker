@@ -14,6 +14,7 @@ const AgentDropdown = ({ selectedAgent, onAgentChange }) => {
         Select an Agent:
       </label>
       <Select
+        className='placeholder:text-gray-300'
         id="agentDropdown"
         value={{ value: selectedAgent, label: selectedAgent }}
         onChange={option => onAgentChange(option.value)}
